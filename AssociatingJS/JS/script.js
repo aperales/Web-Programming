@@ -1,4 +1,4 @@
-var muppetNames = ["Albert", "Perales", "Debbie"];
+//Expressions
 
-
-console.log(muppetNames);
+var a = 2;
+console.log(a)
