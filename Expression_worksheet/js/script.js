@@ -70,6 +70,31 @@ var average = total / 5;
 console.log(total);
 console.log(average);
 
+//Discounts
+
+
+var discountPer = .100;
+var taxPercent = .0825;
+var shirt = 14.99;
+var discountForShirt = discountPer * shirt;
+var taxForShirt = shirt * taxPercent;
+
+var shirtTaxDiscount = taxForShirt + shirt - discountForShirt;
+var shirtTax = shirt - discountForShirt;
+
+// Tax for shirt is $1.23
+// Shirt with tax is $16.22
+//DIscount for shirt is $1.49
+//Shirt with tax and discountis $14.73
+//shirt with discount no tax is $13.50
+
+//"Your shirt was originally $14.99, but after a 10% discount, it is now $13.50 without tax and $14.73 with tax"
+
+
+console.log(shirtTax);
+console.log(taxForShirt);
+console.log(discountForShirt);
+console.log(shirtTaxDiscount);
 
 
 
