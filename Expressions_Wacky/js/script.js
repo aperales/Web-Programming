@@ -2,7 +2,7 @@
 
 // A factory employs 98 workers.  Out of these workers, 16 receive a wage of $85 per day
 // and the rest receive $120.75 per day.  A week is 5 working days. How much does the
-//
+//comnpany pay its employees in a week.
 //Variables for given in problem created // variables can change to any number // pay
 var pay1 = 120.75;
 var pay2 = 85;
@@ -21,6 +21,5 @@ var totalPay =(employee1 * pay2) * weekDays + (employee2 * pay1) * weekDays;
 //This will be used in expression for totalPay
 console.log(employee2);
 //TotalPay console check
-console.log(totalPay);
-
-//last console check
+console.log(("The company pays ") + (totalPay) + (" dollars to their employees in a week."));
+//last console check with strings/
