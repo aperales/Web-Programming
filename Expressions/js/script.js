@@ -1,16 +1,8 @@
-//Expressions - PEMDAS - The order of Operation
+//Expressions with Arrays
 
-var quiz1 = 87;
-var quiz2 = 100;
-var quiz3 = 60;
-var quiz4 = 80;
+var orangeBins = [234, 567, 883];
 
-// the average is the sum of the itesm divided by the number of items
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2]
 
-var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
-//console.log(average)
+console.log (total);
 
-var lenght = 7;
-var width = 6;
-var perimeter = lenght * 2 + width * 2;
-console.log(perimeter)
