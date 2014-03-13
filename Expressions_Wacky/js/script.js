@@ -8,5 +8,12 @@ var pay2 = 85;
 var totalEmp = 98;
 var employee1 = 16;
 var employee2 = totalEmp - employee1;
-//Total employee 2
+//Total employee 2 = 82
+
+var totalPay =(employee1 * pay2) * 5 + (employee2 * pay1) * 5;
+
+
+
 console.log(employee2);
+
+console.log(totalPay);
