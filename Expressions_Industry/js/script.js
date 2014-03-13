@@ -8,8 +8,10 @@
 
 
 var custPerDay = [65, 44, 48, 78, 89, 117, 57];
-
+var days = 7;
 var total = custPerDay[0] + custPerDay[1] + custPerDay[2] + custPerDay[3] + custPerDay[4] + custPerDay[5] + custPerDay[6];
+var averagePerDay = total / days;
 
-console.log(total);
+console.log(("There was ") + (total) + (" customers for the week."));
+console.log(("The average number of customers per day was ") + (averagePerDay) + ("."));
 
