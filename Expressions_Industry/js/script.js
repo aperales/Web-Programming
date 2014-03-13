@@ -16,9 +16,10 @@ var total = custPerDay[0] + custPerDay[1] + custPerDay[2] + custPerDay[3] + cust
 var averagePerDay = total / days;
 
 // console log check with sentence links for correct answer
-//you have to have the quotations and parenthesis to separate links and total that console is checking for
+//you have to have the quotations and parenthesis to separate links and total that console is checking for.
 
 
 console.log(("There was ") + (total) + (" customers for the week."));
+//console with average customers per day.
 console.log(("The average number of customers per day was ") + (averagePerDay) + ("."));
 
