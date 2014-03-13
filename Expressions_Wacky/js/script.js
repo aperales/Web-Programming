@@ -8,12 +8,14 @@ var pay2 = 85;
 var totalEmp = 98;
 var employee1 = 16;
 var employee2 = totalEmp - employee1;
+var weekDays = 5
+//Order of Operations. The expression will need to have parenthesis for correct answer to expression
+//Expression will need week days in each part of parenthesis
+var totalPay =(employee1 * pay2) * weekDays + (employee2 * pay1) * weekDays;
+
+
 //Total employee 2 = 82
-
-var totalPay =(employee1 * pay2) * 5 + (employee2 * pay1) * 5;
-
-
-
+//This will be used in expression for totalPay
 console.log(employee2);
-
+//TotalPay console check
 console.log(totalPay);
