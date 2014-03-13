@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.6806283" vertical-offset="0" max-vertical-offset="573">
+            <state line="17" column="88" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4450262" vertical-offset="0" max-vertical-offset="573">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -57,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="859" />
-    <option name="y" value="203" />
+    <option name="x" value="902" />
+    <option name="y" value="158" />
     <option name="width" value="761" />
     <option name="height" value="683" />
   </component>
@@ -134,6 +134,14 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -144,23 +152,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -182,7 +182,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="859" y="203" width="761" height="683" extended-state="0" />
+    <frame x="902" y="158" width="761" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -225,6 +225,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
@@ -239,14 +253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="8" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.6806283" vertical-offset="0" max-vertical-offset="573">
+        <state line="17" column="88" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4450262" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>

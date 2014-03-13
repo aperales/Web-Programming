@@ -13,7 +13,9 @@ var dozenBought= 3
 
 //Expressions to find amounts
 var totalDonuts = dozenBought * donutsPerDoz;
+// FInd Donuts per person by dividing total donuts by number of people at breakfast
 var donutsPerPers = totalDonuts / people;
+// Expression finds number of coffee needed.  Multiplying cofee by the number of people 
 var coffeePerPers = coffee * people;
 
 // Result Variable
