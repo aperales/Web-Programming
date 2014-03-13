@@ -1,8 +1,11 @@
-//Expressions with Arrays
+// Expressions - Concatenating Strings
+var a = 6;
+var b = 7;
 
-var orangeBins = [234, 567, 883];
+var result = a + b;
+console.log(result);
 
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2]
 
-console.log (total);
+
+
 
