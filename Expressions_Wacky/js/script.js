@@ -22,3 +22,5 @@ var totalPay =(employee1 * pay2) * weekDays + (employee2 * pay1) * weekDays;
 console.log(employee2);
 //TotalPay console check
 console.log(totalPay);
+
+//last console check
