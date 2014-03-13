@@ -49,11 +49,26 @@ var totalPizzaLeft = leftPizzaPerson * person
 //Pizzas per person 4.5
 //half pizza slice per person
 
-
-
-
 //Sparky got 3.5 slices of pizza
 console.log(totalPizzaLeft);
+
+
+//Average Shopping Bill
+// 5 weekly grocery bills
+var groceryBill = [115, 97, 101, 90, 82];
+//expression to find total
+var total = groceryBill[0] + groceryBill[1] + groceryBill[2] + groceryBill[3]
++ groceryBill[4];
+//Total $485
+//expression for finding avergar divide by total number of weeks
+
+var average = total / 5;
+// Average $97 per week
+
+//"You have spent a total of $485 on groceries over 5 weeks. That is anverage of $97 per week."
+
+console.log(total);
+console.log(average);
 
 
 
