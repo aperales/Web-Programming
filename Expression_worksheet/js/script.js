@@ -16,3 +16,17 @@ dogYears * 7;
 console.log(humanYears);
 
 //Sparky is 21 human years old which is 3 in dog years
+
+//Slice of Pie part 1
+
+var slicesPerPizza = 8;
+
+var person = 7;
+
+var pizzasOrd = 4;
+
+var totalSlices = pizzasOrd * slicesPerPizza / person;
+
+
+console.log(totalSlices);
+
