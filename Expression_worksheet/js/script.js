@@ -18,15 +18,19 @@ console.log(humanYears);
 //Sparky is 21 human years old which is 3 in dog years
 
 //Slice of Pie part 1
+// given variables
+// slices per pizza
 
 var slicesPerPizza = 8;
-
+// people at party
 var person = 7;
-
+// pizzas ordered
 var pizzasOrd = 4;
-
+// expression to find slices per person
 var totalSlices = pizzasOrd * slicesPerPizza / person;
 
 
 console.log(totalSlices);
+
+
 
