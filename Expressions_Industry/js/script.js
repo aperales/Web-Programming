@@ -21,10 +21,13 @@ var averagePerDay = total / days;
 var flyCust = custPerDay[0] + custPerDay[1] + custPerDay[2] + custPerDay[3] + custPerDay[4] + custPerDay[5] + custPerDay[6] * 2;
 
 // console log check with sentence links for correct answer
-//you have to have the quotations and parenthesis to separate links and total that console is checking for.
+
 //NUmber of flyer console check
 console.log(("Store needs ") + (flyCust) + (" total flyers for this week"));
+//you have to have the quotations and parenthesis to separate links and total that console is checking for.
+
 console.log(("There was ") + (total) + (" customers for the week."));
+
 //console with average customers per day.
 console.log(("The average number of customers per day was ") + (averagePerDay) + ("."));
 
