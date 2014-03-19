@@ -32,7 +32,7 @@ var correct;
 correct = (yob < 1918 && yob > 1916) ? "He is Correct" : "He is incorrect";
 console.log(correct);
 
-//Regular conditional they both sork the same
+//Regular conditional they both work the same
 
 /*if(yearOfBirth < 1918 && yearOfBirth > 1916){
     //console print for true statement
