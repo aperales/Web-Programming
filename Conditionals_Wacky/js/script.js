@@ -1,7 +1,7 @@
 //Alberto Perales 3/19/2014 Conditionals_Wacky
 
 //A student needs to find the year of his great great grandfathers birth .
-// He thinks it 1917. Is he correct? and  What is the year of his birth?
+// He thinks it 1917. Is he correct? What is the year of his birth?
 
 
 //Given variables
@@ -9,11 +9,16 @@
 
 //great Grandfathers age is 104
 
-//
+//variables for givens in prompt form
+
 var presentYear = prompt("To find your birth year. \nPlease enter the present year.");
 var age = prompt("Please enter you age.");
+
+//minus 1 for the current year we are on
+
 var yearOfBirth = presentYear - age -1;
 console.log(("His year of birth is ") + yearOfBirth + ("."));
+
 //alert for year of birth
 
 alert("The year of birth is " + yearOfBirth + ".");
