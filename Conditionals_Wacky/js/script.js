@@ -14,6 +14,7 @@
 var presentYear = prompt("To find your birth year. \nPlease enter the present year.");
 var age = prompt("Please enter you age.");
 
+
 //minus 1 for the current year we are on
 
 var yearOfBirth = presentYear - age -1;
@@ -22,18 +23,24 @@ console.log(("His year of birth is ") + yearOfBirth + ("."));
 //alert for year of birth
 
 alert("The year of birth is " + yearOfBirth + ".");
+// year pf birth is 1909
+var yob = 1909;
+var correct;
 
 //If else statement for question about year using && to search between 1916 - 1918 for 1917
-if(yearOfBirth < 1918 && yearOfBirth > 1916){
+//Ternary
+correct = (yob < 1918 && yob > 1916) ? "He is Correct" : "He is incorrect";
+console.log(correct);
+
+//Regular conditional they both sork the same
+
+/*if(yearOfBirth < 1918 && yearOfBirth > 1916){
     //console print for true statement
     console.log("He is correct");
 
 }else{
     //Console print for false statement
     console.log("He is incorrect.")
-
-
-}
 
 
 
