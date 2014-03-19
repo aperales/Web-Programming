@@ -14,6 +14,9 @@ var presentYear = prompt("To find your birth year. \nPlease enter the present ye
 var age = prompt("Please enter you age.");
 var yearOfBirth = presentYear - age -1;
 console.log(("His year of birth is ") + yearOfBirth + ("."));
+//alert for year of birth
+
+alert("The year of birth is " + yearOfBirth + ".");
 
 //If else statement for question about year using && to search between 1916 - 1918 for 1917
 if(yearOfBirth < 1918 && yearOfBirth > 1916){
