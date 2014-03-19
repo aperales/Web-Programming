@@ -58,6 +58,24 @@ var letterGrade = "B";
 console.log("You have an " + (grade) + "%," + "which means you have earned an " + (letterGrade) + " in the class!");
 
 
+// Movie Ticket Price
+// Local theater has ticket price of $12 but if you a senior 55 older or under 10 you get the discount
+// $7 if you see movie between 3p and 5pm they get discount price
+
+var movieTime = 3;
+
+
+
+var ageCustomer = 15;
+
+if(ageCustomer < 10 && ageCustomer > 55 || movieTime <= 5 && movieTime >= 3){
+    // discount of tik
+    console.log("The ticket price is $7.");
+
+
+
+}
+
 
 
 
