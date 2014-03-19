@@ -29,9 +29,36 @@ if(milesLeft < milesToGo){
 }else{
     //if its greater than 200
     console.log("Yes you can make it without stopping for gas");
+}
+
+
+//Grade Letter Calculator
+
+//A student earns a number grade at the conclusion of a course at Fullsail
+// Determine the appropriate letter grade for that number using conditional statments
+
+
+var gradePer = .85;
+var gradeAct = gradePer * 100;
+console.log(gradeAct);
+//Grade is 85
+var grade = 85;
+
+if(grade < 90 && grade > 80){
+    //if its greater that 80 and less than 90 it is an B
+    console.log("Grade is a B");
+
+
+
 
 
 }
+//Expression to print the statment requiered
+var letterGrade = "B";
+console.log("You have an " + (grade) + "%," + "which means you have earned an " + (letterGrade) + " in the class!");
+
+
+
 
 
 
