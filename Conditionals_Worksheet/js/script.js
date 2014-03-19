@@ -23,7 +23,7 @@ var milesLeft = gasLeft * milesPerTank;
 console.log(milesLeft);
 //milesLeft is 40mpg
 
-if(milesLeft < 200){
+if(milesLeft < milesToGo){
     //if its less than 200
     console.log("You have 40 gallons left in your tank, better get gas!");
 }else{
