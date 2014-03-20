@@ -18,10 +18,13 @@ var presentYear = prompt("Please enter present year");
 alert("Thank you for the information.");
 //variable to find age expression
 var age = presentYear - dob;
-//console print to find age
-console.log(("Age is ") + age + ("."));
-alert(("Age is ") + age);
 
+//console print fo age using expressions
+console.log(("Age is ") + age + ("."));
+//alert for showing user about what age using the information given
+
+alert(("Age is ") + age);
+//if else prints to console with alerts for seperate if esle wheter denied or granted
 
 if(age < restriction){
     console.log("Your access is Denied");
