@@ -33,6 +33,7 @@ if(age < restriction){
     console.log("Access granted!");
     alert("Access granted");
 }
+// like how you can add alert to each if else statement to give seperate alerts in html page
 
 
 
