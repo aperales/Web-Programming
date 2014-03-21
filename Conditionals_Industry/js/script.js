@@ -11,14 +11,18 @@ var websites = prompt("Please enter websites created");
 
 var createdWeb = websites / 5;
 console.log((createdWeb) + (" websites have failed on average."));
+alert(("Websites created are " + createdWeb));
 
 if(createdWeb >= averageCom1 && createdWeb <= averageCom2){
-    console.log("You are at average")
+    console.log("You are within average");
+    alert("You are within average");
+
+
 
 
 }else{
-    console.log("You are not within average")
-
+    console.log("You are not within average");
+    alert("You are not within average")
 }
 
 
