@@ -35,4 +35,14 @@ calcCirc();
 //return numbers of stings
 
 //result to print out "It takes x bee stings to kill this animal ]
+var total = calcBeeStings(130, 8.666666667);
 
+function calcBeeStings(w, s){
+    //var victimWeight = 130;
+  //  var beeStingLb = 8.666666667;
+    var beeStings = w * s;
+    return beeStings;
+
+}
+console.log(total);
+console.log("It takes " + (total) + "bee stings to kill this animal");
