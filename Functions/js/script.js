@@ -36,13 +36,16 @@ calcCirc();
 
 //result to print out "It takes x bee stings to kill this animal ]
 var total = calcBeeStings(130, 8.666666667);
-
+// function using variables in ()
 function calcBeeStings(w, s){
     //var victimWeight = 130;
   //  var beeStingLb = 8.666666667;
+    //var for beeStings using formula in variable s in ()
     var beeStings = w * s;
+    //return info out of function
     return beeStings;
 
 }
+//consoloe print for total of stings and ANswer needed 
 console.log(total);
 console.log("It takes " + (total) + "bee stings to kill this animal");
