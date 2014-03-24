@@ -3,10 +3,19 @@
 
 //Circumference
 
-//calculate the radius of a circle
+//calculae circumference of circle
 
-var pi = 3.14;
-var 
+
+function calculateCirc(){
+    var pi = 3.14;
+    var radius = 3;
+    var circlePart = 2;
+    var circumference = circlePart * pi * radius;
+    console.log (circumference);
+
+
+}
+
 
 
 
