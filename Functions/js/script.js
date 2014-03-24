@@ -24,3 +24,15 @@ calcCirc();
 
 
 
+//STUNG!!
+
+// Calculate how many bee stings are needed to kill an animal in a function
+//given Victim's weight in pounds
+
+
+//parameters for function victims weight in pounds
+
+//return numbers of stings
+
+//result to print out "It takes x bee stings to kill this animal ]
+
