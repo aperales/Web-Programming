@@ -49,4 +49,4 @@ function calcBeeStings(w, s){
 //consoloe print for total of stings and ANswer needed
 console.log(total);
 console.log("It takes " + (total) + "bee stings to kill this animal");
-// both problems used 
+// both problems used
