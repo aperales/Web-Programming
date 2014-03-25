@@ -8,8 +8,23 @@
 alert("We are calculating how many colored pencils we have.\nPlease enter the following information.");
 var boxes = prompt("Please enter the number of boxes bought.");
 var perBox = prompt("please enter the number of pencils per box.");
-var totalPencils = boxes * perBox;
-console.log(totalPencils);
-alert("The total number of colored pencils is " + totalPencils);
+var pencilsNeeded = 85;
 
 
+
+
+function calcPencils(){
+
+var totalPencils = boxes * perBox - 7;
+    console.log(totalPencils);
+    alert("The total number of colored pencils is " + totalPencils);
+    if(totalPencils > pencilsNeeded){
+        console.log("You have enough pencils")
+        alert("You have enough pencils!")
+}else{
+        console.log("You do not have enough pencils!");
+        alert("You do not have enough pencils!");
+}
+
+}
+calcPencils();
