@@ -11,7 +11,7 @@ var websites = prompt("Please enter number of websites created.");
 function totalTries(){
 var total = tries * websites;
 console.log("It takes " + total + " tries to create " + websites + " websites.");
-
+alert("It takes " + total + " tries to create " + websites + " websites.");
 
 }
 totalTries();
